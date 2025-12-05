@@ -23,6 +23,21 @@
     This repo will use to deploy for music playing bot of telegram
 </p>
 
+---
+
+## ✨ Features
+
+<div align="center">
+
+| ʜɪɢʜ ǫᴜᴀʟɪᴛʏ | ᴍᴜʟᴛɪᴘʟᴇ sᴏᴜʀᴄᴇ | ᴘʟᴀʏʟɪsᴛs | ᴍᴜʟᴛɪ-ʟᴀɴɢᴜᴀɢᴇ |
+|:---:|:---:|:---:|:---:|
+| Crystal clear audio | YouTube • Spotify | Create & Manage | Multiple Languages |
+| ** ᴇʟᴇɢᴀɴᴛ ᴜɪ** | ** ᴀᴅᴍɪɴ ᴄᴏɴᴛʀᴏʟs** | ** ʟɪɢʜᴛɪɴɪɴɢ ғᴀsᴛ** | ** sᴛᴀʙʟᴇ** |
+| Modern Interface | Powerful Commands | 1-3s Response | 99.9% Uptime |
+
+</div>
+
+---
 
 ## ♢ How to make your own :
 
