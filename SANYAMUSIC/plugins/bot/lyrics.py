@@ -7,8 +7,8 @@ import lyricsgenius as lg
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
-from BrandrdXMusic import app
-from BrandrdXMusic.utils.decorators.language import language
+from SANYAMUSIC import app
+from SANYAMUSIC.utils.decorators.language import language
 
 from config import BANNED_USERS, lyrical
 
