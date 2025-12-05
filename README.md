@@ -170,7 +170,7 @@ cd sanyamusic
 tmux
 ```
 
-**𝐍𝐨𝐭𝐞:** Press `Ctrl+B` then `D` to detach screen
+**Note:** Press `Ctrl+B` then `D` to detach screen
 
 **To Reattach:**
 ```bash
@@ -213,6 +213,12 @@ pip3 install -U -r requirements.txt
 
 ### **Step 9: Configurations **
 
+### If its first time then use `bash setup` or else use `nano .env`
+
+```bash
+bash setup 
+```
+
 ```bash
 nano .env
 ```
@@ -236,18 +242,10 @@ nano .env
 
 **Method 1:**
 ```bash
-tmux
-```
-then,
-```bash
 python3 -m sanyamusic
 ```
 
 **Method 2:**
-```bash
-tmux
-```
-then,
 ```bash
 bash start
 ```
@@ -256,6 +254,7 @@ bash start
 
 
 and to stop the whole bot,
+attach tmux first via `tmux attach` then,
  do `CTRL`+`C`
 
 Setting up things
@@ -405,7 +404,10 @@ To get an instant result do /reboot in chat of logger .
 
 </div>
 
----
+
 - [Stark](https://github.com/urSTARK)
 - [Telegram](https://t.me/CUTZJ)
 - Everyone In This Journey !
+
+---
+ 
