@@ -1,3 +1,4 @@
+import os
 import random
 import re
 import string
@@ -11,7 +12,16 @@ from BrandrdXMusic.utils.decorators.language import language
 
 from config import BANNED_USERS, lyrical
 
-api_key = "fcXGwudRZTE8zdMOYKNMoRGIWfBjca_4s5wF5keHeCTd68yURmceO4MGhAbyx-qp"
+# --- MODIFIED SECTION ---
+
+# Use os.getenv() to securely retrieve the API key from the environment.
+api_key = os.getenv("GENIUS_ACCESS_TOKEN")
+
+# Add a check to ensure the key is present
+if not api_key:
+    # Raise an error to prevent the app from starting with a hardcoded or missing key
+    raise ValueError("GENIUS_ACCESS_TOKEN environment variable not set. Please set your Genius API key.")
+
 y = lg.Genius(
     api_key,
     skip_non_songs=True,
@@ -19,6 +29,8 @@ y = lg.Genius(
     remove_section_headers=True,
 )
 y.verbose = False
+
+# --- END MODIFIED SECTION ---
 
 @app.on_message(filters.command(["lyrics"]) & ~BANNED_USERS)
 async def lrsearch(client, message: Message):
