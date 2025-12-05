@@ -72,6 +72,18 @@
 1. Fork This Repo
 2. Click on the button to Deploy and follow steps
 
+## **Steps:**
+
+1. Click the "Deploy To Heroku" button above
+2. Fill in the required environment variables:
+   - `API_ID` & `API_HASH` from [my.telegram.org](https://my.telegram.org)
+   - `BOT_TOKEN` from [@BotFather](https://t.me/BotFather)
+   - `MONGO_DB_URI` - MongoDB connection string
+   - `STRING_SESSION` from [@Sessionbbbot](https://t.me/Sessionbbbot)
+   - Other required variables
+3. Click "Deploy App"
+4. Go to Resources tab and enable the worker
+
 <h4> So Follow Above Steps 👆 and then deploy other wise bot won't work</h4>
 
 Press the below button to Fast deploy on Heroku/Raiwlay
@@ -194,6 +206,23 @@ STRING_SESSION=
 To get an instant result do /reboot in chat of logger .
   
 ![image](https://graph.org/file/801e199f756d83cb4d7f5-068bb84543385c04b6.jpg)
+
+---
+
+<details>
+<summary><b>🤔 𝐂𝐨𝐦𝐦𝐨𝐧 𝐈𝐬𝐬𝐮𝐞𝐬 (𝐂𝐥𝐢𝐜𝐤 𝐭𝐨 𝐄𝐱𝐩𝐚𝐧𝐝)</b></summary>
+
+<br>
+
+| **Issue** | **Solution** |
+|:---:|:---:|
+| Bot not responding | Check if bot is running with proper permissions |
+| No sound in VC | Ensure FFmpeg is properly installed |
+| Can't join voice chat | Make bot admin with VC permissions |
+| API issues | Double check `API_ID` and `API_HASH` |
+| Slow response | Check internet connection and server resources |
+
+</details>
 
 ---
 
