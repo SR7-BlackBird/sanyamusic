@@ -15,7 +15,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 OWNER_USERNAME = getenv("OWNER_USERNAME")
 BOT_USERNAME = getenv("BOT_USERNAME")
 BOT_NAME = getenv("BOT_NAME", "Sanya")
-ASSUSERNAME = getenv("ASSUSERNAME", "Sanya_assistant")
+ASSUSERNAME = getenv("ASSUSERNAME", "SANYAassistant")
 
 # MongoDB
 MONGO_DB_URI = getenv("MONGO_DB_URI")
@@ -31,13 +31,13 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 DEEP_API = getenv("DEEP_API")
 
 # Git
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/urSTARK/SANYAMUSI")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/urSTARK/SANYAMUSIC")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Support
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/SanyaxSupport")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/cutzj")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/SanyaxBots")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/SanyaxSupport")
 
 # YT-API Get from @AmShashank on tg
 YOUR_API_KEY = getenv("YOUR_API_KEY", "stranger")
@@ -110,5 +110,6 @@ if SUPPORT_CHANNEL and not re.match(r"(?:http|https)://", SUPPORT_CHANNEL):
 
 if SUPPORT_CHAT and not re.match(r"(?:http|https)://", SUPPORT_CHAT):
     raise SystemExit("[ERROR] - Your SUPPORT_CHAT url is invalid. It must start with https://")
+
 
 
