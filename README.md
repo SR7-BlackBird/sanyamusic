@@ -121,25 +121,142 @@ then goto the <a href="#mandatory-vars">variables tab</a> for more info on setti
 <details>
   <summary><b>Host it on VPS Locally :</b></summary>
 
+### **Step 1: Update System**
 
-```py
-sudo apt-get install python3-pip ffmpeg -y
-sudo apt-get install python3-pip -y
-sudo pip3 install -U pip
-curl -fssL
-https://deb.nodesource.com/setup_19.x | sudo -E bash - && sudo apt-get install nodejs -y && npm i -g npm
-git clone https://github.com/urSTARK/Sanyamusic && cd Sanyamusic
-pip3 install -U -r requirements.txt
-bash setup
-sudo apt install tmux
-tmux kill-session
-tmux
-bash start
-Ctrl+b then d
+```bash
+sudo apt-get update && sudo apt-get upgrade -y
 ```
 
+---
+
+### **Step 2: Install Required Packages **
+
+```bash
+sudo apt-get install python3 python3-pip ffmpeg git tmux curl -y
+```
+```bash
+sudo pip3 install -U pip
+```
+
+---
+
+### **Step 3: Install Node.js**
+
+```bash
+curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash - && sudo apt-get install nodejs -y && npm i -g npm
+```
+
+```bash
+sudo apt-get install -y nodejs
+```
+
+---
+
+### **Step 4: Clone Repository **
+
+```bash
+git clone https://github.com/urstark/sanyamusic
+```
+
+```bash
+cd sanyamusic
+```
+
+---
+
+### **Step 5: Create TMUX Session**
+
+```bash
+tmux
+```
+
+**𝐍𝐨𝐭𝐞:** Press `Ctrl+B` then `D` to detach screen
+
+**To Reattach:**
+```bash
+tmux attach
+```
+
+---
+
+### **Step 6: Install Virtual Enviornment Packages**
+
+```bash
+sudo apt-get install python3-venv -y
+```
+
+---
+
+### **Step 7: Create Virtual Enviornment**
+
+```bash
+python3 -m venv venv
+```
+
+```bash
+source venv/bin/activate
+```
+
+---
+
+### **Step 8: Install Python Dependencies**
+
+```bash
+pip3 install -U pip
+```
+
+```bash
+pip3 install -U -r requirements.txt
+```
+
+---
+
+### **Step 9: Configurations **
+
+```bash
+nano .env
+```
+
+**Fill in your variables:**
+
+- `API_ID` & `API_HASH` - Get from [my.telegram.org](https://my.telegram.org)
+- `BOT_TOKEN` - Get from [@BotFather](https://t.me/BotFather)
+- `MONGO_DB_URI` - MongoDB Atlas connection string
+- `OWNER_ID` - Your Telegram user ID
+- `STRING_SESSION` - Generate pyrgram session string
+- `LOG_GROUP_ID` - Log group/channel ID (starting with -100)
+- `SUPPORT_GROUP` - Your support group link
+- `SUPPORT_CHANNEL` - Your support channel link
+
+**Save:** `Ctrl+X` then `Y` then `Enter`
+
+---
+
+### **Step 10: Start Bot**
+
+**Method 1:**
+```bash
+tmux
+```
+then,
+```bash
+python3 -m sanyamusic
+```
+
+**Method 2:**
+```bash
+tmux
+```
+then,
+```bash
+bash start
+```
+
+**Detach Tmux:** `Ctrl+B` then `D`
+
+
 and to stop the whole bot,
- do <kbd>CTRL</kbd>+<kbd>C</kbd>
+ do `CTRL`+`C`
 
 Setting up things
 
@@ -230,7 +347,7 @@ To get an instant result do /reboot in chat of logger .
 
 ---
 
-## 📊 Stats
+## Stats
 
 <div align="center">
 
@@ -243,7 +360,7 @@ To get an instant result do /reboot in chat of logger .
 
 ---
 
-## 📝 License 
+## License 
 
 <div align="center">
 
@@ -253,7 +370,7 @@ To get an instant result do /reboot in chat of logger .
 
 ---
 
-## 💬 Support
+## Support
 
 <div align="center">
 
