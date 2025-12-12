@@ -93,9 +93,29 @@ Bot also Supported with Channels. Just add bot and assistant to the Channel as A
 1. Fork This Repo
 2. Click on the button to Deploy and follow steps
 
-## **Steps:**
-
 1. Click the "Deploy To Heroku" button above
+2. Fill in the required environment variables:
+   - `API_ID` & `API_HASH` from [my.telegram.org](https://my.telegram.org)
+   - `BOT_TOKEN` from [@BotFather](https://t.me/BotFather)
+   - `MONGO_DB_URI` - MongoDB connection string
+   - `STRING_SESSION` from [@Sessionbbbot](https://t.me/Sessionbbbot)
+   - Other required variables
+3. Click "Deploy App"
+4. Go to Resources tab and enable the worker
+
+Press the below button to Fast deploy on Heroku/Raiwlay
+Either you could locally host or deploy on [Heroku](https://heroku.com)
+### 💜 Heroku
+
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/urSTARK/Sanyamusic"> <img src="https://www.herokucdn.com/deploy/button.svg"></a></p>
+
+<br>
+<details>
+  <summary><b>Deploy on Railway:</b></summary>
+
+1. Click on the button to Deploy and follow steps
+
+1. Click the "Deploy To Railway" button above
 2. Fill in the required environment variables:
    - `API_ID` & `API_HASH` from [my.telegram.org](https://my.telegram.org)
    - `BOT_TOKEN` from [@BotFather](https://t.me/BotFather)
@@ -107,11 +127,16 @@ Bot also Supported with Channels. Just add bot and assistant to the Channel as A
 
 <h4> So Follow Above Steps 👆 and then deploy other wise bot won't work</h4>
 
-Press the below button to Fast deploy on Heroku/Raiwlay
-Either you could locally host or deploy on [Heroku](https://heroku.com)
-### 💜 Heroku
+Press the below button to Fast deploy on Raiwlay
+Either you could locally host or deploy on [Railway](https://railway.com))
+### 💜 Railway
 
-<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/urSTARK/Sanyamusic"> <img src="https://www.herokucdn.com/deploy/button.svg"></a></p>
+<p align="center"><a href="https://railway.com/deploy/6KmK1q?referralCode=O3RDoQ&utm_medium=integration&utm_source=template&utm_campaign=generic"> <img src="https://railway.com/button.svg"></a></p>
+
+<br>
+
+
+then goto the <a href="#mandatory-vars">variables tab</a> for more info on setting up environmental variables. </details>
 
 <br>
 
