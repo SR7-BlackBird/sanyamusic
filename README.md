@@ -133,8 +133,7 @@ Press the below button to Fast deploy on Raiwlay
 Either you could locally host or deploy on [Railway](https://railway.com))
 ### 💜 Railway
 
-<p align="center"><a href="https://railway.com/deploy/6KmK1q?referralCode=O3RDoQ&utm_medium=integration&utm_source=template&utm_campaign=generic"> <img src="https://railway.com/button.svg"></a></p>
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/victorious-passion?referralCode=O3RDoQ&utm_medium=integration&utm_source=template&utm_campaign=generic)
+<p align="center"><a href="https://railway.com/deploy/victorious-passion?referralCode=O3RDoQ&utm_medium=integration&utm_source=template&utm_campaign=generic"> <img src="https://railway.com/button.svg"></a></p>
 <br>
 
 then goto the <a href="#mandatory-vars">variables tab</a> for more info on setting up environmental variables. </details>
