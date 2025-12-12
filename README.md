@@ -109,6 +109,8 @@ Either you could locally host or deploy on [Heroku](https://heroku.com)
 
 <p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/urSTARK/Sanyamusic"> <img src="https://www.herokucdn.com/deploy/button.svg"></a></p>
 
+then goto the <a href="#mandatory-vars">variables tab</a> for more info on setting up environmental variables. </details>
+
 <br>
 <details>
   <summary><b>Deploy on Railway:</b></summary>
@@ -135,13 +137,9 @@ Either you could locally host or deploy on [Railway](https://railway.com))
 
 <br>
 
-
 then goto the <a href="#mandatory-vars">variables tab</a> for more info on setting up environmental variables. </details>
 
 <br>
-
-
-then goto the <a href="#mandatory-vars">variables tab</a> for more info on setting up environmental variables. </details>
 
 <details>
   <summary><b>Host it on VPS Locally :</b></summary>
