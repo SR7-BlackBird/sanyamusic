@@ -21,18 +21,17 @@ async def repo_handler(_, msg):
     buttons = [
         [InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
         [
-            InlineKeyboardButton("💬 sᴜᴘᴘᴏʀᴛ", url="https://t.me/itfuntimeXD"),
-            InlineKeyboardButton("👤 ᴏᴡɴᴇʀ", url="https://t.me/cutzj"),
+            InlineKeyboardButton("💬 sᴜᴘᴘᴏʀᴛ", url="https://t.me/SanyaXsupport"),
+            InlineKeyboardButton("👤 ᴏᴡɴᴇʀ", url="https://t.me/cuxrs"),
         ],
-        [InlineKeyboardButton("🧾 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/cutzj")]
-#         [
-#            InlineKeyboardButton("💥 ʙᴀɴᴀʟʟ", url="https://github.com/zyz/xyz/fork"),
-#             InlineKeyboardButton("🎧 ᴍᴜsɪᴄ V2", url="https://github.com/xyz/xyz/fork"),
-#         ]
+        [InlineKeyboardButton("🧾 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/sanyaxbots")]
+        [
+            InlineKeyboardButton("✨ sᴀɴʏᴀ ᴍᴜsɪᴄ", url="https://github.com/urstark/sanyamusic/fork"),
+         ]
     ]
 
     await msg.reply_photo(
-        photo="https://files.catbox.moe/jxribw.jpg",
+        photo="https://files.catbox.moe/d3trfw.jpg",
         caption=start_txt,
         reply_markup=InlineKeyboardMarkup(buttons)
     )
@@ -55,7 +54,7 @@ async def repo(_, message):
             list_of_users += f"{count}. [{user['login']}]({user['html_url']})\n"
             count += 1
 
-        text = f"""[𝖱𝖤𝖯𝖮 𝖫𝖨𝖭𝖪](https://github.com/urSTARK/Sanyamusic) | [UPDATES](https://t.me/cutzj)
+        text = f"""[𝖱𝖤𝖯𝖮 𝖫𝖨𝖭𝖪](https://github.com/urSTARK/Sanyamusic) | [UPDATES](https://t.me/cuxrs)
 | 𝖢𝖮𝖭𝖳𝖱𝖨𝖡𝖴𝖳𝖮𝖱𝖲 |
 ----------------
 {list_of_users}"""
