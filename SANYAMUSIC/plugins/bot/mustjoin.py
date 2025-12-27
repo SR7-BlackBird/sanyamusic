@@ -5,7 +5,7 @@ from SANYAMUSIC import app
 
 #--------------------------
 
-MUST_JOIN = "ursstarkz"
+MUST_JOIN = "Heartfeltmoments_9"
 #------------------------
 @app.on_message(filters.incoming & filters.private, group=-1)
 async def must_join_channel(app: Client, msg: Message):
