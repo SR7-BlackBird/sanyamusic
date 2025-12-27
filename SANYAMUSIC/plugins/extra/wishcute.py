@@ -4,7 +4,7 @@ import random
 import requests
 from SANYAMUSIC import app 
 
-SUPPORT_CHAT = "itfuntimeXD"
+SUPPORT_CHAT = "SanyaXsupport"
 
 @app.on_message(filters.command("wish"))
 async def wish(_, m):
