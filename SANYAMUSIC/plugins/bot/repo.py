@@ -24,9 +24,9 @@ async def repo_handler(_, msg):
             InlineKeyboardButton("💬 sᴜᴘᴘᴏʀᴛ", url="https://t.me/SanyaXsupport"),
             InlineKeyboardButton("👤 ᴏᴡɴᴇʀ", url="https://t.me/cuxrs"),
         ],
-        [InlineKeyboardButton("🧾 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/sanyaxbots")]
+        [InlineKeyboardButton("🧾 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/sanyaxbots")],
         [
-            InlineKeyboardButton("✨ sᴀɴʏᴀ ᴍᴜsɪᴄ", url="https://github.com/urstark/sanyamusic/fork"),
+            InlineKeyboardButton("✨ sᴀɴʏᴀ ᴍᴜsɪᴄ", url="https://github.com/urstark/sanyamusic/fork")
          ]
     ]
 
