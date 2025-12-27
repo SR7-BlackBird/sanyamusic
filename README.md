@@ -8,7 +8,7 @@
 
 
 <p align="center">
-  <img src="https://files.catbox.moe/rqa5eo.jpg">
+  <img src="https://files.catbox.moe/d3trfw.jpg">
 </p>
 
 
@@ -397,7 +397,7 @@ To get an instant result do /reboot in chat of logger .
 
 | **Support Channel** | **Owner id** |
 |:---:|:---:|
-| [![Channel](https://img.shields.io/badge/Join%20Channel-black?style=for-the-badge&logo=telegram)](https://t.me/SanyaxSupport) | [![Owner](https://img.shields.io/badge/Join%20Group-black?style=for-the-badge&logo=telegram)](https://t.me/cutzj) |
+| [![Channel](https://img.shields.io/badge/Join%20Channel-black?style=for-the-badge&logo=telegram)](https://t.me/SanyaxSupport) | [![Owner](https://img.shields.io/badge/Join%20Group-black?style=for-the-badge&logo=telegram)](https://t.me/cuxrs) |
 | Latest Updates | 24/7 Help & Support |
 
 ---
@@ -427,8 +427,8 @@ To get an instant result do /reboot in chat of logger .
 </div>
 
 
-- [Stark](https://github.com/urSTARK)
-- [Telegram](https://t.me/CUTZJ)
+- [Stark](https://github.com/urstark)
+- [Telegram](https://t.me/cuxrs)
 - Everyone In This Journey !
 
 ---
